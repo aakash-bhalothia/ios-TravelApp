@@ -25,4 +25,15 @@ class DemoCollectionViewCell: BasePageCollectionCell {
       customTitle.layer.shadowOffset = CGSize(width: 0, height: 3)
       customTitle.layer.shadowOpacity = 0.2
     }
+    
+    var googleMapsTap: ((DemoCollectionViewCell) -> Void)?
+    
+    @IBAction func openGoogleMaps(_ sender: Any) {
+        googleMapsTap?(self)
+    }
+    
+    var uberTap: ((DemoCollectionViewCell) -> Void)?
+    @IBAction func openUber(_ sender: Any) {
+        uberTap?(self)
+    }
 }

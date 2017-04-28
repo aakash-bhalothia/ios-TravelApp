@@ -127,7 +127,9 @@ extension DemoViewController {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath) {
     guard let cell = collectionView.cellForItem(at: indexPath) as? DemoCollectionViewCell
           , currentIndex == (indexPath as NSIndexPath).row else { return }
-
+    
+    
+    
     if cell.isOpened == false {
       cell.cellIsOpen(true)
     } else {
@@ -149,6 +151,59 @@ extension DemoViewController {
   }
   
   override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    return collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: DemoCollectionViewCell.self), for: indexPath)
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: DemoCollectionViewCell.self), for: indexPath) as! DemoCollectionViewCell
+    let row = indexPath.row
+    
+    
+    cell.googleMapsTap = { (cell) in
+        //        self.showAlertForRow(collectionView.indexPathForCell(cell)!.row)
+        if (UIApplication.shared.canOpenURL(NSURL(string:"comgooglemaps://")! as URL)) {
+            let starting_string_spaces = self.items[row].address
+            let starting_string_plusses = starting_string_spaces.replacingOccurrences(of: " ", with: "+")
+            
+            if ((row + 1) < self.items.count) {
+                let ending_string_spaces = self.items[row+1].address
+                let ending_string_plusses = ending_string_spaces.replacingOccurrences(of: " ", with: "+")
+                
+                UIApplication.shared.openURL(NSURL(string:
+                    String(format: "comgooglemaps://?saddr=%@&daddr=%@&directionsmode=driving", starting_string_plusses, ending_string_plusses))! as URL)
+            } else {
+                UIApplication.shared.openURL(NSURL(string:
+                    String(format: "comgooglemaps://?saddr=%@&daddr=%@&directionsmode=driving", starting_string_plusses, "HELL"))! as URL)
+            }
+            
+        } else {
+            NSLog("Can't use comgooglemaps://");
+        }
+    }
+    
+    cell.uberTap = { (cell) in
+        
+        if (UIApplication.shared.canOpenURL(NSURL(string:"uber://")! as URL)) {
+            let starting_string_spaces = self.items[row].address
+            let starting_string_temp1 = starting_string_spaces.replacingOccurrences(of: ",", with: "%2C")
+            let starting_string_plusses = starting_string_temp1.replacingOccurrences(of: " ", with: "%20")
+            
+            
+            if ((row + 1) < self.items.count) {
+                let ending_string_spaces = self.items[row+1].address
+                let ending_string_temp1 = ending_string_spaces.replacingOccurrences(of: ",", with: "%2C")
+                let ending_string_plusses = ending_string_temp1.replacingOccurrences(of: " ", with: "%20")
+                print(ending_string_plusses)
+                UIApplication.shared.openURL(NSURL(string:
+                    String(format: "uber://?client_id=2R4nRIxMfSv2W5B8uXWw-bV3vsoOR52Z&action=setPickup&pickup[formatted_address]=%@&dropoff[formatted_address]=%@", starting_string_plusses, ending_string_plusses))! as URL)
+            } else {
+                UIApplication.shared.openURL(NSURL(string:
+                    String(format: "uber://?client_id=2R4nRIxMfSv2W5B8uXWw-bV3vsoOR52Z&action=setPickup&pickup[formatted_address]=%@&dropoff[formatted_address]=%@", starting_string_plusses, "USA"))! as URL)
+            }
+            
+        } else {
+            NSLog("Can't use comgooglemaps://");
+        }
+    }
+    
+
+    
+    return cell
   }
 }

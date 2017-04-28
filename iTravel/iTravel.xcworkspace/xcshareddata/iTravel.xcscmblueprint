@@ -1,37 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AB2662162450390DD830BA30CEC06EBF2DD73F80",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2CD435C336CF8D01D6B8A3A85445A7A92A096BD1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "12C5DF8D9FD48BFB228A6DCA150D0490611DFFFB" : 9223372036854775807,
-    "4BBACEA61B5B174FC351CDC9262D09FD7E501062" : 9223372036854775807,
-    "AB2662162450390DD830BA30CEC06EBF2DD73F80" : 9223372036854775807
+    "2CD435C336CF8D01D6B8A3A85445A7A92A096BD1" : 9223372036854775807,
+    "4BBACEA61B5B174FC351CDC9262D09FD7E501062" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7AE43514-55E4-42A0-AE79-2E5BE0C6CACF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "12C5DF8D9FD48BFB228A6DCA150D0490611DFFFB" : "expanding-collection\/",
-    "4BBACEA61B5B174FC351CDC9262D09FD7E501062" : "folding-cell\/",
-    "AB2662162450390DD830BA30CEC06EBF2DD73F80" : "iTravel\/"
+    "2CD435C336CF8D01D6B8A3A85445A7A92A096BD1" : "ios-TravelApp\/",
+    "4BBACEA61B5B174FC351CDC9262D09FD7E501062" : "ios-TravelApp\/folding-cell\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "iTravel",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iTravel.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iTravel\/iTravel.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ramotion\/expanding-collection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aakash-bhalothia\/ios-TravelApp.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12C5DF8D9FD48BFB228A6DCA150D0490611DFFFB"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CD435C336CF8D01D6B8A3A85445A7A92A096BD1"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aakash-bhalothia\/folding-cell.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BBACEA61B5B174FC351CDC9262D09FD7E501062"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aakash-bhalothia\/iTravel.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB2662162450390DD830BA30CEC06EBF2DD73F80"
     }
   ]
 }
