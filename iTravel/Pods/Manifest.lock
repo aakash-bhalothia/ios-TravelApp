@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.4.0)
+  - expanding-collection (1.0.4)
+  - FoldingCell (2.0.5)
+  - GoogleMaps/Base (2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - RAMPaperSwitch (2.0.4)
+  - SwiftyJSON (3.1.4)
+  - YelpAPI (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - expanding-collection (~> 1.0.3)
+  - FoldingCell (~> 2.0.3)
+  - GooglePlaces
+  - RAMPaperSwitch (~> 2.0.4)
+  - SwiftyJSON
+  - YelpAPI
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  expanding-collection: be78b5822d7382d3da02b52d52273f4661567a64
+  FoldingCell: fb189fc746e95b722a1debf8ef455006b70cae2e
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  RAMPaperSwitch: d24db52c5423c14812d4069073c3159cffcf3992
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  YelpAPI: a0475cf4a7b6f9fe81f1bb7b8a8492770f21e3c7
+
+PODFILE CHECKSUM: 4e8e960c96280a7e3f0c6f22d185d8573c5ccec2
+
+COCOAPODS: 1.2.0

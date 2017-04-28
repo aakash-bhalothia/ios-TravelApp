@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SuggestionsViewController.generatePlan(Any) -&gt; ():SuggestionsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.result[0][&quot;name&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.arrRes[0][&quot;name&quot;] as String">
+            </PersistentString>
+            <PersistentString
+               value = "dict[&quot;name&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.arrRes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

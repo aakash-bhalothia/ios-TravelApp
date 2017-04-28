@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AB2662162450390DD830BA30CEC06EBF2DD73F80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "12C5DF8D9FD48BFB228A6DCA150D0490611DFFFB" : 9223372036854775807,
+    "4BBACEA61B5B174FC351CDC9262D09FD7E501062" : 9223372036854775807,
+    "AB2662162450390DD830BA30CEC06EBF2DD73F80" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7AE43514-55E4-42A0-AE79-2E5BE0C6CACF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "12C5DF8D9FD48BFB228A6DCA150D0490611DFFFB" : "expanding-collection\/",
+    "4BBACEA61B5B174FC351CDC9262D09FD7E501062" : "folding-cell\/",
+    "AB2662162450390DD830BA30CEC06EBF2DD73F80" : "iTravel\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iTravel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iTravel.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ramotion\/expanding-collection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12C5DF8D9FD48BFB228A6DCA150D0490611DFFFB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aakash-bhalothia\/folding-cell.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BBACEA61B5B174FC351CDC9262D09FD7E501062"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aakash-bhalothia\/iTravel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB2662162450390DD830BA30CEC06EBF2DD73F80"
+    }
+  ]
+}
