@@ -107,7 +107,7 @@
 		CFDD0DB71EB1C2ED004035E3 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		CFDD0DB91EB1C2ED004035E3 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = "../folding-cell/FoldingCell/FoldingCell/MainTableViewController.swift"; sourceTree = "<group>"; };
 		CFDD0DBA1EB1C2ED004035E3 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
-		CFDD0DC11EB1C2ED004035E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDD0DC11EB1C2ED004035E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/aakashbhalothia/ios/iOS-TravelApp/folding-cell/FoldingCell/FoldingCell/Info.plist"; sourceTree = "<absolute>"; };
 		CFDD0DC31EB1C2ED004035E3 /* FoldingCellFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingCellFramework.h; sourceTree = "<group>"; };
 		CFDD0DC41EB1C2ED004035E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFDD0DC61EB1C2ED004035E3 /* FoldingCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCellTests.swift; sourceTree = "<group>"; };
